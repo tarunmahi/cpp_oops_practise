@@ -7,7 +7,7 @@ class Solution{
         return x+y;
     }
 };
-
+//new
 int main(){
     Solution s;
     int val =s.add(3,5);
