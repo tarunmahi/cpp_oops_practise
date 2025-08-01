@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#include "tips.cpp"
 using namespace std;
 
 class Solution{
@@ -10,5 +11,9 @@ class Solution{
 //new
 int main(){
     Solution s;
-    cout<<sizeof(s)<<endl;
+    Hero h("tarun",45);
+    h.set_name("varsha");
+
+    h.set_age(50);
+    cout<<h.get_age()<<" "<<h.get_name()<<endl;
 }
